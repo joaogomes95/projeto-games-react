@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #414040;
+    padding: 3rem 0;
+    color: #fff;
+  }
+  
+  .social a {
+    font-size: 3.5em;
+    color: #fff;
+    text-decoration: none;
+  }

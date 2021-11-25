@@ -1,0 +1,72 @@
+.card {
+  width: 230px;
+  height: 270px;
+  margin: 1rem 0.8rem 2rem;
+  border-radius: 10px;
+  border-image: linear-gradient(225deg, #6610f2 0%, #1b1b22 100%) 1;
+  transition: all 200ms;
+  color: white;
+  text-transform: uppercase;
+  backdrop-filter: blur(6px) saturate(200%);
+  -webkit-backdrop-filter: blur(6px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.card img {
+  width: 100%;
+  height: 60%;
+  border-radius: 0.4rem;
+}
+
+.card span {
+  text-align: left;
+  font-size: 0.8rem;
+  width: 90%;
+}
+
+.favo {
+  display: flex;
+  width: 100%;
+  height: 25%;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.ano {
+  height: 15%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ano span {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.favorito {
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+}
+
+.sim {
+  color: #e60013;
+}
+
+.favorito:hover {
+  cursor: pointer;
+}
+
+.button {
+  background-color: transparent;
+}

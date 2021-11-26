@@ -1,9 +1,6 @@
-import Card  from 'react-bootstrap/Card'
+
 import axios  from 'axios'
-import { ListGroup, ListGroupItem } from 'react-bootstrap'
-import Container from '../Container/Container'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { GrLike } from "react-icons/gr";
 import { FaHeart } from "react-icons/fa";
 import '../Cards/Cards.css';
 import { useNavigate } from 'react-router-dom';
@@ -30,25 +27,19 @@ export default function Cards(props) {
 
   return (
 
-            <div className="card card-container">
-            <img onClick={goToGamePage} src={props.image} alt={props.nome} />
-            <div className="favo">
-                <span>{props.nome}</span>
-            </div>
-            <div className='ano'>
-                <span>R$ {props.preco}</span>
-                <button onClick={wishGame}>
-                <FaHeart />
-                </button>
-            </div>
-        </div>
-
-    
-
-
-
-
-    
+    <div className="card card-container">
+        <img className="img-card" onClick={goToGamePage} src={props.image} alt={props.title} />
+        
+      <div className="favo">
+          <span>{props.title}</span>
+      </div>
+      <div className='ano'>
+          <span>R$ {props.preco}</span>
+          <button className="btn-like"onClick={wishGame}>
+          <FaHeart />
+          </button>
+      </div>
+    </div>    
   )
 }
 

@@ -67,6 +67,12 @@
   cursor: pointer;
 }
 
-.button {
+.btn-like {
   background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.img-card {
+  cursor: pointer;
 }

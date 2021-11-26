@@ -9,9 +9,10 @@ export default function Header() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>        
-          <Navbar.Brand href="/"> Blue Games </Navbar.Brand>
-          <Nav className="me-auto">
+          <Navbar.Brand  href="/"> Blue Games </Navbar.Brand>
+          <Nav  className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/Profile">Perfil</Nav.Link>
             <Nav.Link href="/WishList">Favoritos</Nav.Link>
             <Nav.Link href="/Register">Criar Conta</Nav.Link>
             <Nav.Link href="/Login">Login</Nav.Link>

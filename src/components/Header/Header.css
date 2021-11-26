@@ -1,4 +1,8 @@
-.navbar__image {    
-    padding: 1.2rem 0;
-    margin-right: 3rem;
-  }
+.navbar__image {
+  padding: 1.2rem 0;
+  margin-right: 3rem;
+}
+
+.header {
+  position: fixed;
+}

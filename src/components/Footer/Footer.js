@@ -10,7 +10,7 @@ export default function Footer() {
     <section class="social">  
 
           
-          <div id="social2">                     
+          <div classname="footer" id="social2">                     
             <div id="link">
                 <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-gomes-244b7592/" target="_blank"><img src={link}/></a>
             </div>              
